@@ -13,11 +13,26 @@ var item; // anything
 ### Operators aritmetics operators
 
 ```JavaScript
+/*
+** -> exponentiation
+* -> multiplication
+/ -> division
 + -> addition
 - -> subtraction
-/ -> division
 % -> remainder
-** -> exponentiation
 ++ -> increment and
 -- -> decrement
+*/
 ```
+
+### Compound Assignments
+
+```js
+var myVar = 8;
+myVar += 10; // 18
+myVar -= 2; // 16
+myVar *= 2; // 32
+myVar /= 4; // 8
+```
+
+
